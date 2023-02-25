@@ -1,0 +1,24 @@
+{
+  "name": "create-react-rust",
+  "version": "0.1.0",
+  "description": "generate reactjs app with rust and webassembly ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rust",
+    "reactjs",
+    "cra",
+    "webassembly"
+  ],
+  "author": "lutif",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "fs-extra": "^11.1.0",
+    "node-fetch": "2.6.6",
+    "yargs": "^17.7.1"
+  }
+}
