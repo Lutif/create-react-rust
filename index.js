@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chalk from  'chalk';
 import fs from 'fs-extra';
 import path from 'path';
@@ -11,12 +13,11 @@ const templates = {
   default: path.join(__dirname, 'templates', 'default'),
   // add other templates here open the PR/issue
 };
-const createReactApp = (name ="reactive-rust", template) => {
+const createReactApp = (name ="reactive-rust", template="default") => {
   console.log(chalk.green(`Creating a new React Rust project "${name}" `));
 
   const templateDir = templates[template];
   const targetDir = path.join(process.cwd(), name);
-
   fs.ensureDirSync(targetDir);
   fs.copySync(templateDir, targetDir);
   console.log(chalk.bgGreenBright(chalk.green(`Installing npm dependencies...`)));
