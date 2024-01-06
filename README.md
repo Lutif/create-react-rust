@@ -4,6 +4,13 @@ This is a template generator for a React app that uses Rust with wasm.
 <p align="center">
   <a href="https://www.npmjs.com/package/create-react-rust"><img src="https://img.shields.io/npm/v/create-react-rust.svg?style=flat-square"></a>
   <a href="https://www.npmjs.com/package/create-react-rust"><img src="https://img.shields.io/npm/dm/create-react-rust.svg?style=flat-square"></a>
+</p>
+
+## pre-req
+
+[rust](https://www.rust-lang.org/tools/install)
+
+[Node](https://nodejs.org/en/download/current)
 
 ## Installation
 Install the package globally with npm.
