@@ -30,6 +30,10 @@ provide a name for your app and it will be created in a folder with the same nam
 create-react-rust create my-app
 ```
 
+## To see changes made in rust
+- 1 yarn build:wasm
+- 2 yarn build:bindgen
+
 ## License
 MIT
 
