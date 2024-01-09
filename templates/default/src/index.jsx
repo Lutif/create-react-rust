@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import {big_computation, welcome} from "../build/rusty_react"
-const wasm = import("../build/rusty_react");
 
 const App = () => {
     const [name, setName] = useState("");
