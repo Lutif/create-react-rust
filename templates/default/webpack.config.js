@@ -8,6 +8,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.[hash].js",
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   devServer: {
     compress: true,
     port: 3000,
