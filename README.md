@@ -31,8 +31,8 @@ create-react-rust create my-app
 ```
 
 ## To see changes made in rust
-- 1 yarn build:wasm
-- 2 yarn build:bindgen
+1 yarn build:wasm
+2 yarn build:bindgen
 
 ## License
 MIT
